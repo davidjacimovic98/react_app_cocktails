@@ -1,0 +1,21 @@
+.no-cocktails {
+  margin: 30vh auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.cocktails {
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.cocktails h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.cocktails-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,53 @@
+.main {
+  margin: 5vh auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(68, 138, 68);
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  transition: all 1s ease;
+  text-align: center;
+  margin: 5vh auto;
+}
+
+.btn:hover {
+  background-color: lightblue;
+  color: #000;
+}
+
+.drink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10vw;
+}
+
+.drink img {
+  height: 60vh;
+}
+
+.info p {
+  margin-bottom: 4vh;
+  font-weight: bold;
+}
+
+.data {
+  background-color: rgba(101, 167, 101, 0.508);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+
+.ingredient {
+  margin-right: 1vw;
+}

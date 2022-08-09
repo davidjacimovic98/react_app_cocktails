@@ -1,0 +1,47 @@
+.single-cocktail {
+  background-color: #fff;
+  width: 30vw;
+  margin: 5vh auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+  padding-bottom: 5vh;
+}
+
+.img-container img {
+  height: 70%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cocktail-info {
+  text-align: start;
+  margin-left: 2vw;
+}
+
+.cocktail-info h3 {
+  font-size: 26px;
+}
+
+.cocktail-info h4 {
+  margin-top: -2vh;
+  letter-spacing: 3px;
+}
+
+.cocktail-info p {
+  margin-top: -2vh;
+  font-weight: 100;
+}
+
+.cocktail-info a {
+  text-decoration: none;
+  background-color: rgb(68, 138, 68);
+  color: #fff;
+  padding: 5px 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.cocktail-info a:hover {
+  background-color: lightblue;
+  color: #000;
+}

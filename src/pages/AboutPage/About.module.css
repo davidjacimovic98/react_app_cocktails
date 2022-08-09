@@ -1,0 +1,11 @@
+.about {
+  margin: 10vh auto;
+  text-align: center;
+  width: 35vw;
+}
+
+.about h1 {
+  text-transform: capitalize;
+  letter-spacing: 4px;
+  margin-bottom: 5vh;
+}

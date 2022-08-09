@@ -1,0 +1,9 @@
+.loading {
+  margin: 20vh auto;
+  text-align: center;
+}
+
+.loading h2 {
+  letter-spacing: 3px;
+  font-size: 30px;
+}

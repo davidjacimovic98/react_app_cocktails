@@ -1,0 +1,25 @@
+.error {
+  margin: 10vh auto;
+  text-align: center;
+}
+
+.error h2 {
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin-bottom: 5vh;
+}
+
+.error a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(68, 138, 68);
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  transition: all 1s ease;
+}
+
+.error a:hover {
+  background-color: lightblue;
+  color: #000;
+}

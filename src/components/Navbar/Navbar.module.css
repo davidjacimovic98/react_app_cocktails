@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.35);
+}
+
+.navbar img {
+  height: 20px;
+  margin-left: 10vw;
+}
+
+.links {
+  margin-right: 15vw;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.links li {
+  float: left;
+}
+
+.links a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 2vw;
+  font-size: 20px;
+}
